@@ -30,7 +30,7 @@ app.get('/translate/:Source/:lang', async (req, res) => {
         qs: { text: req.params.Source, to: req.params.lang },
         headers: {
             'x-rapidapi-host': 'nlp-translation.p.rapidapi.com',
-            'x-rapidapi-key': 'a9494748ddmsh90f707d4b38ebe9p1870e5jsnd9dc2cf5e1dd',
+            'x-rapidapi-key': 'Enter key here',
             useQueryString: true
         }
     };
