@@ -1,14 +1,15 @@
 # Translation Api with Caching
 
-This is a api created to showcase the translation api with the redis and its benifits:
+This is a api created to showcase the translation api where on can pass the string and target language and get the desired string in target language.
 Tech stacks used:
-Node.js
-Redis
+1)Node.js
+2)Redis
+
 npm packages used:
-Express
-redis
-nodemon
-request
+1)Express
+2)redis
+3)nodemon
+4)request
 
 Quick start:
 -----------
