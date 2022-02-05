@@ -2,14 +2,12 @@
 
 This is a api created to showcase the translation api where on can pass the string and target language and get the desired string in target language.
 Tech stacks used:
-1)Node.js
-2)Redis
+
+Node.js , Redis
 
 npm packages used:
-1)Express
-2)redis
-3)nodemon
-4)request
+
+Express , redis , nodemon , request
 
 Quick start:
 -----------
