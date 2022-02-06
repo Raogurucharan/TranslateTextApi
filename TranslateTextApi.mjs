@@ -40,10 +40,12 @@ app.get('/translate/:Source/:lang', async (req, res) => {
     const str2 = req.params.lang;
 
     const newString = str1.concat('+', str2)
-
+    
     client.get(newString).then(response => {
         if (response != null) {
-            res.send('cache hit : '+ response)
+            //If the string is present in Redis
+            
+            res.send('cache hit : '+ response) 
             
         }
         else {
@@ -53,12 +55,12 @@ app.get('/translate/:Source/:lang', async (req, res) => {
                 if (error) throw new Error(error);
 
                 const { translated_text } = JSON.parse(body)
-                //parse the particular content that is needed
+                //parse the Converted string
                 const data = Object.values(translated_text)[0];
 
                 res.send(data)
 
-                client.setEx(newString, 15000, data)
+                client.setEx(newString, 15000, data)   //Inserting key value pairs into Redis
 
                 console.log("success");
             });
