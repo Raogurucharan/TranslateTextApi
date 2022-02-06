@@ -10,7 +10,7 @@ await client.connect();
 
 //Endpoint Defination
 
-//https://localhost:8000/translate/tiger/kn
+//http://localhost:8000/translate/tiger/kn
 
 //op: ಹುಲಿ
 
