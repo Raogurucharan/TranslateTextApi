@@ -77,14 +77,14 @@ Before cache:
 --------------
 * *You can see before caching the response time was **3430 ms*** *
 
-![alt text](https://github.com/Raogurucharan/codeyoung/blob/main/finalCache.png)
+![alt text](https://github.com/Raogurucharan/TranslateTextApi/blob/main/BeforeCacheHit.png)
 
 
 After Caching:
 ---------------
 * *After caching is done using redis the response time is reduced to **4ms*** *
  
-![alt text](https://github.com/Raogurucharan/codeyoung/blob/main/finalcachehit1.png)
+![alt text](https://github.com/Raogurucharan/TranslateTextApi/blob/main/AfterCacheHit.png)
 
 
 
