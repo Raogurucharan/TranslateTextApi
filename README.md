@@ -37,24 +37,10 @@ nodemon TranslateTextApi.mjs
 ```
 6) If installed properly you will see the message 
   **" Server has been started at port 8000 "**
-
-
-
-Before cache:
---------------
-* *You can see before caching the response time was 3430 ms* *
-
-![alt text](https://github.com/Raogurucharan/codeyoung/blob/main/finalCache.png)
-
-
-After Caching:
----------------
-* *After caching is done using redis the response time is reduced to 4ms* *
- 
-![alt text](https://github.com/Raogurucharan/codeyoung/blob/main/finalcachehit1.png)
-
-
-#How to use
+  
+  
+How to use:
+-------------
 
 1)Check  if redis is running:
 ```
@@ -78,8 +64,20 @@ You should get something like : **"Api is up on !!"**
  eg:
   http://localhost:8000/translate/tiger/kn
 
+If the call is new it will be stored in Redis DB, So that next time you call the same endpoint the response will come from Cache.
+
+Before cache:
+--------------
+* *You can see before caching the response time was 3430 ms* *
+
+![alt text](https://github.com/Raogurucharan/codeyoung/blob/main/finalCache.png)
 
 
+After Caching:
+---------------
+* *After caching is done using redis the response time is reduced to 4ms* *
+ 
+![alt text](https://github.com/Raogurucharan/codeyoung/blob/main/finalcachehit1.png)
 
 
 
