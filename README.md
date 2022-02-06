@@ -90,7 +90,4 @@ After Caching:
 
 We can see the Huge difference here from 3430ms to 4ms which is around **850** Times faster.
 
-
-
-
-
+All the best practices are followed and API testing is done
