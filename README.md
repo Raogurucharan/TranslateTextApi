@@ -52,3 +52,40 @@ After Caching:
 * *After caching is done using redis the response time is reduced to 4ms* *
  
 ![alt text](https://github.com/Raogurucharan/codeyoung/blob/main/finalcachehit1.png)
+
+
+#How to use
+
+1)Check  if redis is running:
+```
+redis-server
+```
+```
+redis-cli
+```
+2) Start the server by using 
+``` 
+nodemon TranslateTextApi.mjs
+```
+3)Go to url-> http://localhost:8000/
+
+You should get something like : **"Api is up on !!"**
+
+4) Api struction is something like this:
+
+ http://localhost:8000/translate/Source/lang
+ 
+ eg:
+  http://localhost:8000/translate/tiger/kn
+
+
+
+
+
+
+
+
+
+
+
+
