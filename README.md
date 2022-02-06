@@ -40,6 +40,11 @@ Quick start:
 6) If installed properly you will see the message 
   **" Server has been started at port 8000 "**
   
+Why Redis?
+----------
+
+Redis is a great choice for implementing a highly available in-memory cache to decrease data access latency, increase throughput, and ease the load off your relational or NoSQL database and application.
+
   
 How to use:
 -------------
