@@ -88,7 +88,7 @@ After Caching:
 
 
 
-
+We can see the Huge difference here from 3430ms to 4ms which is around **850** Times faster.
 
 
 
