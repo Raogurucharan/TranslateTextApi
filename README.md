@@ -95,4 +95,6 @@ After Caching:
 
 We can see the Huge difference here from 3430ms to 4ms which is around **850** Times faster.
 
+![alt text](https://media.giphy.com/media/l41JGlWa1xOjJSsV2/giphy.gif)
+
 All the best practices are followed and API testing is done
