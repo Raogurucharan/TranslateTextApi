@@ -1,6 +1,9 @@
 # Translation Api with Caching
 
 This is a api created to showcase the translation api where on can pass the string and target language and get the desired string in target language.
+
+![alt text](https://media.giphy.com/media/3o7aTFnG95Q8VIsRqw/giphy.gif)
+
 Tech stacks used:
 
 Node.js , Redis
